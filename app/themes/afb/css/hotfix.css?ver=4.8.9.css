@@ -1,0 +1,16 @@
+/*Adding this file to handle updated styles due to the
+changes in Bourbon. At some point, we should either update
+to a version of Bourbon within this project so that
+mixins are supported or simply update Bourbon and Neat to the
+latest version and update all mixins accordingly.*/
+
+@media (max-width: 1260px){
+    .page-template-unlike .box {
+        text-align: center;
+    }
+    .page-template-unlike .box img {
+        float: none;
+        width: 100px;
+        margin-right: 0;
+    }
+}
